@@ -1,5 +1,6 @@
-package repo
+package models
 
+// Task представляет сущность задачи
 type Task struct { // создали сущность Task
 	ID          int    `json:"id"`          // id задачи
 	Title       string `json:"title"`       // название задачи
